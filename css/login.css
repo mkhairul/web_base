@@ -1,0 +1,19 @@
+#loginbox{ margin: 30px auto; width: 250px; background-color: #5A5A5A; }
+.outline1{ border: 1px solid #666666; }
+.outline2{ border: 1px solid #161616; }
+#loginbox h2{ color: #269DE7; font-size: 1.1em; margin: 0; padding: 8px; }
+.content{ padding: 5px 5px 5px 8px; }
+
+.inputfield{ width: 200px; margin-left: 8px; background-color: #525252; margin-bottom: 10px; }
+.inputfield input{ font-size: 1em; border: none; width: 96%;color: #747874; background-color: #525252; padding: 3px;  }
+
+button{
+    background-color: #666666;
+    border-top: 1px solid #7A7A7A;
+    border-left: 1px solid #7A7A7A;
+    border-right: 1px solid #5F5F5F;
+    border-bottom: 1px solid #5F5F5F;
+    font-size: 0.9em; color: #fff; }
+button:hover{ background-color: #4A4A4A; border: 1px solid #232323; }
+.buttons{ float: right; margin-right: 12px; margin-bottom: 5px; }
+
