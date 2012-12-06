@@ -38,7 +38,7 @@ class Authlib {
     function _authenticate()
     {
         $this->CI->load->model('user_model', 'user', TRUE);
-        if(!($this->_user_data = $this->CI->user->get_user($this->username)))
+        if(!($this->_user_data == $this->CI->user->get_user($this->username)))
         {
             $this->error = 'Invalid username and/or password';
         }
@@ -46,6 +46,7 @@ class Authlib {
         {
             if(!$this->_check_password())
             {
+                $this->error = 'Invalid username and/or password';
                 return FALSE;
             }
         }
